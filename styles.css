@@ -21,7 +21,7 @@ body{
   margin-left: 160px;
   margin-right: 160px;
   z-index: 999;
-  border-radius: 30px;
+  border-radius: 15px;
   border-width: 8px;
   border-style: solid;
   border-image: 
@@ -34,11 +34,13 @@ body{
 }
 
 .navbar:hover{
-  background: #ffc163;
+  background: #5a0961;
   transition: all 0.5s ease;
   border-image: none;
   border-style: none;
 }
+
+
 
 .navbar__container {
   display: flex;
@@ -84,7 +86,7 @@ body{
 }
 
 .navbar__links {
-  color: #fff;
+  color: #fff ;
   display: flex;
   align-items: center;
   justify-content: center;
